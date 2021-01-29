@@ -1,7 +1,5 @@
 name: "itoa"
-description:
-    "Fast functions for printing integer primitives to an io::Write"
-
+description: "Fast functions for printing integer primitives to an io::Write"
 third_party {
   url {
     type: HOMEPAGE
@@ -9,10 +7,13 @@ third_party {
   }
   url {
     type: ARCHIVE
-    value: "https://static.crates.io/crates/itoa/itoa-0.4.6.crate"
+    value: "https://static.crates.io/crates/itoa/itoa-0.4.7.crate"
   }
-  version: "0.4.6"
-  last_upgrade_date { year: 2020 month: 8 day: 21 }
+  version: "0.4.7"
   license_type: NOTICE
+  last_upgrade_date {
+    year: 2020
+    month: 12
+    day: 29
+  }
 }
-
