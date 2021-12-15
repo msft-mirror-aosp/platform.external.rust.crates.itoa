@@ -38,14 +38,18 @@ license {
     ],
 }
 
-rust_defaults {
-    name: "itoa_test_defaults",
+rust_test {
+    name: "itoa_test_tests_test",
+    host_supported: true,
     crate_name: "test",
-    srcs: ["tests/test.rs"],
     cargo_env_compat: true,
     cargo_pkg_version: "0.4.8",
+    srcs: ["tests/test.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
+    test_options: {
+        unit_test: true,
+    },
     edition: "2015",
     features: [
         "default",
@@ -54,19 +58,6 @@ rust_defaults {
     rustlibs: [
         "libitoa",
     ],
-}
-
-rust_test_host {
-    name: "itoa_host_test_tests_test",
-    defaults: ["itoa_test_defaults"],
-    test_options: {
-        unit_test: true,
-    },
-}
-
-rust_test {
-    name: "itoa_device_test_tests_test",
-    defaults: ["itoa_test_defaults"],
 }
 
 rust_library {
