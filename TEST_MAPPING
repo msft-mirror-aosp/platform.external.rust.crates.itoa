@@ -37,10 +37,16 @@
       "name": "itoa_test_tests_test"
     },
     {
+      "name": "libpvmfw_avb.integration_test"
+    },
+    {
       "name": "microdroid_manager_test"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "virtualizationmanager_device_test"
+    },
+    {
+      "name": "vm.test"
     }
   ],
   "presubmit-rust": [
@@ -54,10 +60,16 @@
       "name": "itoa_test_tests_test"
     },
     {
+      "name": "libpvmfw_avb.integration_test"
+    },
+    {
       "name": "microdroid_manager_test"
     },
     {
-      "name": "virtualizationservice_device_test"
+      "name": "virtualizationmanager_device_test"
+    },
+    {
+      "name": "vm.test"
     }
   ]
 }
