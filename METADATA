@@ -11,13 +11,13 @@ third_party {
   }
   url {
     type: ARCHIVE
-    value: "https://static.crates.io/crates/itoa/itoa-1.0.4.crate"
+    value: "https://static.crates.io/crates/itoa/itoa-1.0.5.crate"
   }
-  version: "1.0.4"
+  version: "1.0.5"
   license_type: NOTICE
   last_upgrade_date {
-    year: 2022
-    month: 12
-    day: 12
+    year: 2023
+    month: 2
+    day: 2
   }
 }
