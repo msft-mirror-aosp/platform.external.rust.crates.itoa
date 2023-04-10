@@ -43,7 +43,7 @@ rust_test {
     host_supported: true,
     crate_name: "test",
     cargo_env_compat: true,
-    cargo_pkg_version: "1.0.4",
+    cargo_pkg_version: "1.0.5",
     srcs: ["tests/test.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
@@ -61,11 +61,13 @@ rust_library {
     host_supported: true,
     crate_name: "itoa",
     cargo_env_compat: true,
-    cargo_pkg_version: "1.0.4",
+    cargo_pkg_version: "1.0.5",
     srcs: ["src/lib.rs"],
     edition: "2018",
     apex_available: [
         "//apex_available:platform",
         "com.android.virt",
     ],
+    product_available: true,
+    vendor_available: true,
 }
